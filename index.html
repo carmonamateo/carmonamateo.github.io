@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>M.CARMONA</title>
+
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="description" content="Mateo Carmona" />
+<meta property="og:image" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mateo Carmona" />
+<meta property="og:description" content="Mateo Carmona" />
+<link rel="canonical" href="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="description" content="Mateo Carmona.">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="keywords" content="Mateo Carmona">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style type="text/css">
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #3d523e;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #3d523e;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #3d523e;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+  a{text-decoration:none;}
+a {
+  position: relative;
+  color: #3d523e;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+  a{text-decoration:none;}
+a {
+  position: relative;
+  color: #3d523e;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+a:link {
+  color: #3d523e;
+}
+/* visited link */
+a:visited {
+  color: #3d523e;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+div.ex {
+  background-color: white;
+  width: 750px;
+  height: 250px;
+  overflow: scroll;
+}
+.accordion {
+  background-color: #3d523e;
+  color: #3d523e;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#slides{
+  background-color: white;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+ </style>
+</head>
+
+<BODY BGCOLOR="#3d523e" text="000000" link="#3d523e" alink="#3d523e" vlink="#3d523e">
+ <table width="100%" height="100%" cellspacing="0" cellpadding="10">
+  <tr valign="top" width="100%" bgcolor="#3d523e">
+   <td width="12%" align="center">
+    <br>
+    <center>
+    <span class="quotation">
+    <a href="https://carmonamateo.github.io/"><font size="+2" color="ffffff">M.&nbsp;CARMONA</font></a>
+    <br>
+    <font color="ffffff">Mathematician</font>
+   <td width="80%" valign="top" bgcolor="FFFFFF">
+<table width="90%" border="0" cellpadding="5" align="center">
+<link rel='stylesheet' href='https://www.walden.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.8.1' type='text/css' media='all' />
+<style type='text/css'>
+body{background-color:#3d523e;color:#000000;}a, a:visited{color:#3d523e;}a:visited{color:#3d523e;}a:hover, a:focus, a:active{color:#3d523e;}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}h1{font-weight:600;font-size:42px;}h2{font-weight:600;font-size:36px;line-height:1.3em;}h3{font-weight:600;font-size:28px;line-height:1.3em;}h4{font-weight:600;font-size:22px;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:30px;}h2{font-size:25px;}}
+</style>
+<style type="text/css">
+  @import url("https://fonts.googleapis.com/css?family=IM+Fell+English:400,400italic");@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700");@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:700,400");a:link h1,h2,h3,h4 { color: #445231; text-decoration: none;}h1,h2,h3,h4,h5,h6 { font-family: 'IM Fell English', serif !important; margin-top:30px;}h1,h2,h3,h4 { text-decoration: none;}.quotation { font-family: 'IM Fell English', serif !important; font-size:large;}</style>
+
+<div class="woocommerce">
+
+<br><br>
+
+<center>
+						
+<h2 align="center">Mateo Carmona</h2>	
+
+<center>
+<!-- <link rel="stylesheet" href="/path/to/folder/css/academicons.min.css"/> 
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"> 
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<a href="https://orcid.org/0000-0002-4122-1323"><i class="ai ai-orcid ai-1x"></i></a> 
+<a href=""><i class="ai ai-arxiv ai-1x"></i></a> -->
+<!-- <a href=""><i class="ai ai-hal ai-1x"></i></a>
+ <a href="https://mathoverflow.net/users/157844/mateo-carmona?tab=profile"><i class="ai ai-mathoverflow ai-1x"></i></a> 
+<a href=""><i class="ai ai-arxiv ai-1x"></i></a>
+<a href="https://github.com/carmonamateo"><i class="fab fa-github"></i></a> 
+<a href="https://nforum.ncatlab.org/account/2264/"><img src="https://nforum.ncatlab.org/themes/nforum/styles/nforum/nforum.png" alt="nForum" class="nForum" width="17" height="17"></a>
+<a href="https://twitter.com/carmonamateogm"><i class="fab fa-twitter"></i></a> -->
+</center>
+						
+<br><br>
+
+<center>
+<p><img class=" wp-image-4130 aligncenter" src="https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png" alt="pagebreak dark green" width="392" height="56" srcset="https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 300w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 768w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 1024w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 1189w" sizes="(max-width: 192px) 100vw, 192px" /></p>	
+</center>
+
+<br><br>
+
+										
+				<section class="elementor-element elementor-element-b3a9883 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b3a9883" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-827dd8f elementor-column elementor-col-100 elementor-top-column" data-id="827dd8f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-97d33a4 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="97d33a4" data-element_type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<br><center><h2 class="elementor-heading-title elementor-size-default"></h2></center>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e10755a elementor-widget elementor-widget-theme-post-content" data-id="e10755a" data-element_type="widget" data-widget_type="theme-post-content.default">
+				<div class="elementor-widget-container">
+                <center>
+                 <img width="400" src="https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/squa.png" alt="Carmona" border="0">
+ </center>
+<p align="center"><span class="quotation">Coordinator <br> <a href="https://igrothendieck.org/centro-di-studi-grothendieckiani/">Centre for Grothendiecian Studies (CSG)</a> <br> <b>Instituto Grothendieck</b></span></p>&nbsp;
+
+<br><br><br><br><br><br><br><br>
+
+
+
+<span class="quotation"><p align="center">&#9993; <a href="mailto:mateo.carmona@csg.igrothendieck.org">mateo.carmona@csg.igrothendieck.org</a></p>
+            </span> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <br><br>
+
+<button class="accordion"><h3><font color="ffffff">Papers and Preprints</font></h3> <span class="quotation"><font color="ffffff">
+<br><br></font></span></button>
+<div class="panel">
+<p>
+
+
+  <br><br>
+
+  <span class="quotation">
+<b>Pursuing stacks </b> <br> A. Grothendieck <br><br>
+<link rel="stylesheet" href="/path/to/folder/css/academicons.min.css"/> 
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"> 
+<a href="https://arxiv.org/abs/2111.01000"><i class="ai ai-arxiv ai-1x"><span class="quotation">arXiv</span></i></a>
+</span> 
+       
+
+<br><br>
+  
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+<br><br>
+
+<button class="accordion"><h3><font color="ffffff">Some Letters</font></h3> <span class="quotation"><font color="ffffff">
+<br><br></font></span></button>
+<div class="panel">
+  <p>
+  
+  
+  <br><br>
+  
+  
+        <span class="quotation"><b>Letter of S Mochizuki</b> <br> 13.11.2017 <br>
+      <a href="https://carmonamateo.github.io/letters/LMC17.pdf">[pdf]</a> <br><br>
+       Mathematical difference between the theory of Galois categories/topoi and the theory of Anabelioids
+            </span> 
+  
+    
+
+<br><br>
+
+
+<hr WIDTH="33%">
+
+
+<br><br> 
+
+      <span class="quotation"><b>Leitfaden, P. Deligne</b> <br> 14.3.2018 <br>
+      <a href="https://carmonamateo.github.io/letters/Leitfaden.pdf">[scan]</a> <br><br>
+       Leitfaden of the first two sections of <a href="https://agrothendieck.github.io/divers/NAG.pdf">[pdf]</a>
+            </span> 
+
+     
+
+      
+<br><br>
+
+
+<hr WIDTH="33%">
+
+
+<br><br> 
+
+      <span class="quotation"><b>Letter of P. Deligne</b> <br> 9.5.2018 <br>
+      <a href="https://carmonamateo.github.io/letters/Carmona9mai2018.pdf">[scan]</a> <br><br>
+       Letter of P. Deligne. 6.5.2018 <a href="https://carmonamateo.github.io/letters/Carmona6mai2018.pdf">[pdf]</a> 
+	      <br> Lettre à P. Deligne, A. Grothendieck 7.8.74 <a href="https://carmonamateo.github.io/letters/LGD74.pdf">[pdf]</a>, 
+	      <a href="https://carmonamateo.github.io/letters/LGD74scan.pdf">[scan]</a>
+            </span> 
+
+ 
+ 
+ 
+ <br><br>
+
+
+<hr WIDTH="33%">
+
+
+<br><br> 
+
+      <span class="quotation"><b>Carta de C. Contou-Carrère</b> <br> 19 Dic 2020 <br>
+      <a href="https://carmonamateo.github.io/letters/LCM20.pdf">[pdf]</a> <br><br>
+       En relación a la Tesis de O Leroy
+            </span> 
+ 
+ 
+  <br><br>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
+<button class="accordion"><h3><font color="ffffff">Events</font></h3> <span class="quotation"><font color="ffffff">
+<br><br></font></span></button>
+<div class="panel">
+  <p> -->
+  
+	
+<!--   <br><br>
+  
+  
+ 		<span class="quotation"><a href="https://www.maths.nottingham.ac.uk/plp/pmzibf/files/May2020.html">[Foundations and Perspectives of Anabelian Geometry]</a> <br>
+      RIMS workshop, June 28 - July 2 2021
+      </span>
+<br><br>
+
+
+<hr WIDTH="33%">
+	
+  <br><br>
+  
+  
+ 		<span class="quotation"><a href="https://www.maths.nottingham.ac.uk/plp/pmzibf/files/June2020.html">[Combinatorial Anabelian Geometry and Related Topics]</a><br>
+      RIMS workshop, July 6 - July 9, 2021
+      </span>
+<br><br>
+
+	
+	<hr WIDTH="33%">
+	
+  <br><br>
+  
+  
+  
+    
+   		<span class="quotation"><a href="https://aroundtoposes.com/toposesonline/">[Toposes online]</a><br>
+      School: 24-26 June 2021
+      <br>
+      Conference: 28-30 June 2021
+      </span>
+<br><br>
+
+	
+	<hr WIDTH="33%">
+	
+  <br><br>
+  
+  
+  
+   		<span class="quotation"><a href="https://server.mcm.ac.cn/~zheng/LI/">[Conference on Arithmetic Geometry in honor of Luc Illusie]</a><br>
+      Virtual conference, June 7–11, 2021
+      </span>
+<br><br>
+
+	
+<hr WIDTH="33%">	
+	
+	
+	
+	
+	 <br><br>
+
+
+ 		<span class="quotation"><a href="https://modp-langlands-2021.esaga.net">[Spring school towards a mod p Langlands correspondence]</a> <br>
+      Essen (online), April 26 - 30, 2021
+      </span>
+<br><br>
+
+<hr WIDTH="33%">	
+	
+	
+	
+	
+	 <br><br>
+  
+  
+ 		<span class="quotation">Meditaciones <br>
+      28 Marzo 2021. Charla online en conmemoración del nacimiento de A Grothendieck
+      </span>
+<br><br>
+
+
+<hr WIDTH="33%"> -->
+  
+  <!-- <br><br>
+  
+  
+ 		<span class="quotation"><a href="https://sites.math.washington.edu/~jarod/math582C.html">[Introduction to stacks and moduli]</a> <br>
+      Winter quarter 2021, University of Washington
+      </span>
+<br><br>
+
+
+<hr WIDTH="33%"> -->
+
+
+<!-- <br><br>   
+  
+ 		<span class="quotation"><b><a href="https://eldenelmanto.com/eakts-electronic-algebraic-k-theory-seminar/">[electronic Algebraic K-Theory Seminar (eAKTS)]</a></b> <br>
+      Online international research seminar focusing on algebraic K-theory and related fields. 
+      </span>
+<br><br>
+<hr WIDTH="33%"> 
+
+
+<br><br> 
+
+ 		<span class="quotation"><a href="https://sites.google.com/view/toposeslectures/home">[The geometry of morphisms and equivalences of toposes]</a> <br>
+      O Caramello. Oct 26, 27, 30 2020. Online mini-course 
+      </span>
+<br><br> 
+
+
+<hr WIDTH="33%"> 
+
+
+<br><br> 
+      
+
+ 		<span class="quotation">La Herencia de la Soledad <br> Entre Galois y Grothendieck <br>
+      Charla online por el Aniversario de E. Galois. <br> 25 Octubre 2020.
+      </span>
+<br><br>
+
+
+<hr WIDTH="33%">
+
+
+<br><br> 
+
+      <span class="quotation">Évariste Galois <br>
+      Charla online por la conmemoracion de la muerte de E. Galois, <br> 31 Mayo 2020.
+      </span>
+
+<br><br>
+
+
+<hr WIDTH="33%">
+
+
+<br><br> 
+
+
+      <span class="quotation">Alrededor del texto “En Guise de Programme” <br>
+      Charla online por el Aniversario n 92 de A. Grothendieck. 28 Marzo 2020.
+      </span>      
+
+<br><br>
+
+
+<hr WIDTH="33%">
+
+
+<br><br> 
+
+      <span class="quotation">¿Qué son las Matemáticas? <br> (según A. Grothendieck) <br>
+      Seminario SPECI por la conmemoracion de la muerte de A. Grothendieck, <br> Universidad de Antioquia, Colombia. 13 Noviembre 2019.
+            </span>  
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
+
+
+
+<button class="accordion"><h3><font color="ffffff">Contributions</font></h3> <span class="quotation"><font color="ffffff">
+<br><br></font></span></button>
+<div class="panel">
+  <p>
+  
+<br><br> 
+
+      <span class="quotation">Foundations for almost ring theory, L Ramero and O Gabber <br>
+      <a href="http://math.univ-lille1.fr/~ramero/hodge.pdf">[pdf]</a> <br>
+      Relecture
+      </span>
+
+
+<br><br>
+
+<hr WIDTH="33%">
+
+<br><br> 
+      <span class="quotation"><b><a href="http://fabrice.orgogozo.perso.math.cnrs.fr/SGA4/details/index.html">[SGA 4]</a></b> <br>
+      Réédition par F Orgogozo
+      </span>
+ </p>
+ 
+ 
+ <br><br>
+
+<hr WIDTH="33%">
+
+<br><br> 
+      <span class="quotation"><b><a href="https://ega.fppf.site/">[EGA]</a></b> <br>
+      Translation
+      </span>
+ </p>
+ 
+ 
+   <br><br>
+
+<hr WIDTH="33%">
+
+<br><br>
+
+
+      <span class="quotation">Relative topos theory via stacks, O Caramello and R. Zanfa <br>
+      <a href="https://arxiv.org/pdf/2107.04417.pdf">[pdf]</a> <br>
+      Relecture
+      </span>
+ 
+ 
+  <br><br>
+
+<hr WIDTH="33%">
+
+<br><br> 
+ 
+      <span class="quotation"><a href="https://agrothendieck.github.io/">[Thèmes pour une Harmonie]</a> <br> Grothendieck
+      </span> 
+ 
+ 
+</div>
+ 
+ <br><br>  -->
+ 
+
+
+<!-- <br><br><br><br><br>
+
+
+
+<p><img class=" wp-image-4130 aligncenter" src="https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png" alt="pagebreak dark green" width="392" height="56" srcset="https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 300w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 768w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 1024w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 1189w" sizes="(max-width: 192px) 100vw, 192px" /></p>
+
+<br><br><br>
+
+
+
+
+<button class="accordion"><h3><font color="ffffff">Poesía</font></h3> <span class="quotation"><font color="ffffff">
+<br><br></font></span></button>
+<div class="panel">
+  <p>
+
+<br><br> 
+
+      <span class="quotation">Manos abiertas <br>
+      <a href="/divers/manosabiertas.pdf">[pdf]</a> <br>
+      </span>
+
+
+<br><br> 
+
+ </p>
+</div> -->
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<br><br><br><br><br>
+
+
+<p><img class=" wp-image-4130 aligncenter" src="https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png" alt="pagebreak dark green" width="392" height="56" srcset="https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 300w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 768w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 1024w, https://raw.githubusercontent.com/carmonamateo/carmonamateo.github.io/master/img/breakpage.png 1189w" sizes="(max-width: 192px) 100vw, 192px" /></p>
+
+
+
+
+<br><br><br>
+
+
+
+</center>
+
+
+
+   </td>
+  </tr>
+ </table>
+</body>
+</html>
