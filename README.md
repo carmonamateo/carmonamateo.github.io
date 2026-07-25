@@ -1,4 +1,4 @@
----
+***
 
 I am **Mateo Carmona**, a *Grothendieck scholar*, former Coordinator, and current Archivist of the [Centro di Studi Grothendieckiani (CSG)](https://csg.igrothendieck.org/).
 
@@ -11,7 +11,7 @@ You can find me at:
 
 Some events and works:
 
-- [The Grothendieckian Approach: Between Unity, Expression and Form](https://www.carmin.tv/en/video/the-grothendieckian-approach-between-unity-expression-and-form). Les mathématiques comme expérience artistique, 2025. 
+- [The Grothendieckian Approach: Between Unity, Expression and Form](https://www.carmin.tv/en/video/the-grothendieckian-approach-between-unity-expression-and-form). Les mathématiques comme expérience artistique, IHP 2025. 
 - [Jean-Pierre Jouanolou. Catégories Dérivées en Cohomologie ℓ-adique](https://theses.hal.science/tel-04236971v1). Mathématiques. Faculté des sciences de Paris, 1969. Français.
 
----
+***
