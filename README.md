@@ -1,16 +1,17 @@
-## Hi there 👋
+---
 
-<!--
-**carmonamateo/carmonamateo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am **Mateo Carmona**, a *Grothendieck scholar*, former Coordinator, and current Archivist of the [Centro di Studi Grothendieckiani (CSG)](https://csg.igrothendieck.org/).
 
-Here are some ideas to get you started:
+Besides *History of Mathematics*, I am also interested in *Archival Studies*.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+You can find me at:
+
+- E-mail: [mateo.carmona@csg.igrothendieck.org](mateo.carmona@csg.igrothendieck.org)
+- CSG Profile: [Scholars](https://csg.igrothendieck.org/researchers/)
+
+Some events and works:
+
+- [The Grothendieckian Approach: Between Unity, Expression and Form](https://www.carmin.tv/en/video/the-grothendieckian-approach-between-unity-expression-and-form). Les mathématiques comme expérience artistique, 2025. 
+- [Jean-Pierre Jouanolou. Catégories Dérivées en Cohomologie ℓ-adique](https://theses.hal.science/tel-04236971v1). Mathématiques. Faculté des sciences de Paris, 1969. Français.
+
+---
