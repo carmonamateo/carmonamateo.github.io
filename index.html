@@ -1,1 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Mateo Carmona Webpage</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Lemonada:wght@400;700&family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+a { font-family:inherit; font-weight:inherit; 
+  color:inherit;
+  background: transparent;
+}
+a:hover { background-color:rgb(181, 201, 165); } 
+
+.title{
+position:relative;
+margin-bottom:2px;
+padding-left:20px;
+padding-right:20px;
+padding-top:5px;
+padding-bottom:5px;
+background-color:rgb(178, 209, 251);
+color:black;
+font-style:italic;
+}
+
+p.right-align { text-align:right;}
+
+a.underlinedlink { 
+   text-decoration:underline;
+   padding-left:5px;
+   padding-right:5px;}
+
+a.underlinedlink:hover{
+  background:white;
+  text-decoration:underline;
+  color:black;}
+
+.banner
+{
+position:relative;
+background-color:rgb(181, 201, 165);
+color:white;
+text-align:center;
+padding:5px;
+}
+
+a.button       { padding-left:10px; padding-right:10px; padding-bottom:5px; padding-top:5px; }
+a.button:hover{
+  background:white;
+  text-decoration:none;
+  color:black;}
+
+a.checked-button       { padding-left:10px; padding-right:10px; padding-bottom:5px; padding-top:5px; font-weight:bold;}
+a.checked-button:hover{
+  background:white;
+  text-decoration:none;
+  color:black;
+  font-weight:bold;}
+
+.main
+{
+position:relative;
+margin-top:10px;
+margin-right:5px;
+margin-left:50px;
+}
+
+.left
+{
+position:relative;
+margin-top:10px;
+margin-right:5px;
+padding:10px;
+width:47%;
+float:left;
+}
+
+.right
+{
+position:relative;
+margin-top:10px;
+margin-left:5px;
+padding:10px;
+width:47%;
+float:right;
+}
+
+.small-left
+{
+position:relative;
+margin-top:30px;
+margin-right:5px;
+padding:5px;
+width:20%;
+float:left;
+}
+
+.main-right
+{
+position:relative;
+margin-top:10px;
+margin-left:5px;
+padding:10px;
+width:75%;
+float:right;
+}
+.clear {clear:both;}
+
+.logos{
+position:relative;
+top:5px;
+left:5px;
+clear:both;
+float:right;
+padding-top:20px;
+width:15%;
+background-color:white;
+color:black;}
+
+.address{
+position:relative;
+padding:10px; margin-bottom:50px;
+top:20px; right:5px;
+float:right; 
+width:50%;
+padding-left:10%;
+padding-right:10%;
+background-color:rgb(181, 201, 165);
+color:black;
+}
+
+body { 
+  background:white; 
+  background-color:white; 
+  color:black;
+  font-size:120%;
+  margin-left:1em; margin-right:1em;
+  font-family: 'Crimson Pro', serif;
+}
+
+
+h1, h2, h3,h4, h5, h6 {
+  color:inherit;
+  font-weight: bold;
+  background: transparent; padding-left:50px; margin-left:0px;}
+h3,h4, h5, h6 {
+  padding-left:20px; margin-right:-5px;
+}
+address { padding-left:40px;}
+
+h1 { margin-bottom:20px; margin-left:-1em; margin-right:0em; 
+     padding:25px; font-size: 218% ; padding-left:2em;
+    background-color:rgb(181, 201, 165);
+  color: black; 
+}
+.seminairevb{ background-color:rgb(153, 255, 204); }
+.brochure{ background-color:rgb(177, 85, 84); }
+h2 { font-size: 164% ; background-color: rgb(178, 209, 251); margin-top:20px; margin-bottom:5px;}
+.springer{ background-color:rgb(239,199,79);}
+.brochure{ background-color:rgb(177, 85, 84); }
+h3 { font-size: 125% ; 
+text-transform:none; letter-spacing:0.1ex; margin-top:10px; margin-bottom:5px;}
+h4 { font-style:italic; font-size: 118%  ; text-transform:lowercase;}
+h5 { font-style: italic; font-size: 100% }
+h6 { font-variant: small-caps; font-size: 100% }
+
+  dl.expose {margin-top:6px;}
+  dl.expose dt {margin-top:6px; font-weight: bold; }
+  dl.expose dd {margin-left:100px;}
+  .nom {font-weight: inherit; font-style:normal; font-variant:small-caps;}
+
+
+h2.plain {
+  background-color:white;
+  color: #A0CB31;
+}
+
+h3.plain {
+  font-size:118%;
+  text-transform:none; letter-spacing:0ex;
+  background-color:white;
+  color: black;
+}
+
+p.titre{
+  margin-left:20%;
+  clear:both;
+  font-size:100%;
+}
+
+p.horaire{
+   float:left;
+   font-size:250%;
+   color:  rgb(178, 209, 251);
+   margin:0px; margin-right:1em;
+  }
+
+p.resume {
+  clear:both;
+  font-size:80%;
+  padding:10px;
+  margin-left:8em; margin-right:1em;
+  background-color:rgb(181, 201, 165);
+  color:black;}
+
+p.reverse {
+  background-color:#A0CB31;
+  color: black; 
+}
+
+p.comment {
+   font-size:80%;
+   margin:0px;
+   margin-left:8em; margin-right:1em; 
+   font-style:italic;
+}
+
+center-align {
+  text-align: center;
+}
+
+right-align {
+  text-align: right;
+}
+
+left-align {
+  text-align: left;
+}
+
+
+a.plain {
+  color:inherit;
+  font-weight: inherit;
+}
+a.plain { font-weight:inherit; 
+  color:black;
+  background: transparent;
+  text-decoration:underline; padding-left:2px; padding-right:2px;
+}
+a.plain:hover { background-color:rgb(176, 196, 222); color:black;text-decoration:none;}
+
+a.popupimg img { height:0; border-width:0 }
+
+a.popupimg:hover img { position:absolute; top:100px; right:50px; height:160px; border-width:1px; }
+
+p { padding-left:0em; margin:0em; }
+
+ul.seminaire {
+   list-style-type:none;
+   padding:5px;
+   padding-left:2em;}
+.seminaire {
+   background-color:rgb(181, 201, 165);}
+
+dl.seminaire {
+  overflow:hidden;
+  padding-left:2em;
+}
+
+dl.seminaire dt {
+  float:left; clear:left;
+  font-weight:bold;
+  width:4em; } 
+
+dl.seminaire dd {
+  float:left;
+  width:90%;
+  margin-left:0em;
+}
+
+h1.seminairevb {height:2em;}
+h1.seminaire{height:2em;}
+ul.seminairevb {
+   list-style-type:none;
+   padding:5px;
+   padding-left:2em;}
+.seminairevb {
+   background-color:rgb(181, 201, 165); }
+
+.history {
+   background-color: #BAB1A6; }
+.history a:hover {
+   padding:10px;
+   background-color: rgb(255,255,255);}
+.seminairevb a:hover {
+   background-color: rgb(255,255,255);}
+.seminaire a:hover{
+   background-color: rgb(255,255,255);}
+.seminairevb a:link {
+   text-decoration: none;}
+.seminaire a:link{
+   text-decoration: none;}
+
+dl.seminairevb {
+  overflow:hidden;
+  padding-left:2em;
+  background-color:rgb(181, 201, 165); }
+
+dl.seminairevb dt {
+  display: inline; float:left; clear:left;
+  font-weight:bold;
+  width:4em; } 
+
+dl.seminairevb dd {
+  display: inline; float:left;
+  width:90%;
+  margin-left:0em;
+}
+
+/* Create two equal columns that floats next to each other */
+.left-column {
+    float: left;
+    width: calc(50% - 30px) ;
+    padding: 10px;
+}
+.right-column {
+    float: right;
+    width: calc(50% - 30px) ;
+    padding: 10px;
+}
+.column {
+    float: left;
+    width: calc(50% - 30px) ;
+    padding: 10px;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 900px) {
+    .left-column {
+        width: 100%;
+    }
+    .right-column {
+        width: 100%;
+    }
+    .column {
+        width: 100%;
+    }
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    float:bottom;
+    display: table;
+    clear: bottom;
+}
+
+
+</style>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+<script defer
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+</head>
+<body>
+<div class="row">
+<div class="left-column">
+<a id="seminairevb"></a>
+<h1 class="seminairevb">Mateo CARMONA</h1>
+<p>I am Mateo Carmona, a Grothendieck scholar, former Coordinator, and current Archivist of the Centro di Studi Grothendieckiani (CSG).</p>
+<p>Besides History of Mathematics, I am also interested in Archival Studies.</p>
+<h2 class="seminairevb">Events  </h2>
+<p>  Le <a href="seminaires/2025-26/index.html#seminairevb">Séminaire Bourbaki du vendredi</a> a lieu à l'Institut Henri Poincaré (<a href="http://www.ihp.fr/">IHP</a>, amphithéatre Charles Hermite), 11 rue Pierre et Marie Curie, Paris&nbsp;5<sup>e</sup>.
+&mdash; 
+[<a href="https://indico.math.cnrs.fr/export/categ/339.ics">iCal</a>]
+[<a href="seminaires/2025-26/Sem-jan-26/affiche-bv.pdf">Affiche</a>]
+[<a href="seminaires/2025-26/Sem-jan-26/resumes-bv.pdf">Résumés</a>]</p>
+<dl class="seminairevb">
+
+  <dt>15h00</dt>
+<dd><strong>Giuseppe <i class="nom"> Ancona </i> &mdash; Structures de Hodge de variétés abéliennes et classes de Weil
+</strong>
+<br>
+<p>La cohomologie d’une variété algébrique <span
+class="math inline">\(X\)</span> est enrichie d’une donnée d’algèbre
+linéaire qui s’appelle structure de Hodge. La conjecture de Hodge prédit
+que les sous-variétés de codimension <span
+class="math inline">\(k\)</span> de <span
+class="math inline">\(X\)</span> sont controlées par la structure de
+Hodge de <span class="math inline">\(X\)</span> de degré cohomologique
+<span class="math inline">\(2k\)</span>. Cette conjecture n’est connue
+que pour <span class="math inline">\(k=1\)</span> (Lefschetz). Toutes
+ces notions sont très visibles dans le cas d’une variété abélienne : sa
+cohomologie, sa structure de Hodge et la conjecture de Hodge pour <span
+class="math inline">\(k=1\)</span>. De plus, certaines variétés
+abéliennes possèdent des classes de Weil, ce sont la première instance
+du fait que la conjecture de Hodge pour <span
+class="math inline">\(k=1\)</span> n’est pas suffisante pour les <span
+class="math inline">\(k\)</span> supérieurs.</p>
+
+</dd>
+
+  <dt>16h30</dt>
+<dd><strong>Isabelle <i class="nom"> Tristani </i> &mdash; Un problème de limite hydrodynamique : de Boltzmann à Navier&ndash;Stokes
+</strong>
+<br>
+<p>Cet exposé porte sur le problème de la dérivation rigoureuse des
+équations aux dérivées partielles de la mécanique des fluides à partir
+des équations cinétiques, ce qui est en lien avec le sixième problème de
+Hilbert. Dans un premier temps, nous expliquerons comment les résultats
+récents de Deng, Hani et Ma sur la dérivation de l’équation de Boltzmann
+à partir d’un système de particules permettent désormais d’obtenir un
+résultat de dérivation complet, reliant la description microscopique à
+la description macroscopique. Dans un second temps, nous nous
+concentrerons plus spécifiquement sur le problème de la dérivation de
+l’équation de Navier–Stokes incompressible à partir de l’équation de
+Boltzmann.</p>
+
+</dd>
+
+
+</dl>
+</div>
+
+<div class="right-column">
+<a id="seminaire"></a>
+<h1 class="seminaire">
+</h1>
+<h2 class="seminaire">Works & Letters</h2>
+<p>Le séminaire Bourbaki a été fondé en 1948. Au rythme de quatre séances par
+  an, il tente d'offrir un panorama des développements mathématiques actuels. </p>
+<p>L'entrée est libre.</p>
+<p>Le <a href="seminaires/2025-26/index.html#seminaire">Séminaire N. Bourbaki</a> a lieu à l'Institut Henri Poincaré (<a href="http://www.ihp.fr/">IHP</a>, amphithéatre Charles Hermite), 11 rue Pierre et Marie Curie, Paris 5<sup>e</sup>.
+  &mdash;
+  [<a href="https://indico.math.cnrs.fr/export/categ/338.ics">iCal</a>]
+[<a href="seminaires/2025-26/Sem-jan-26/affiche-nb.pdf">Affiche</a>]
+[<a href="seminaires/2025-26/Sem-jan-26/resumes-nb.pdf">Résumés</a>]</p>
+<dl class="seminaire">
+
+
+<dt>
+11h00
+</dt>
+<dd>
+<strong>Isabelle <i class="nom"> Gallagher </i>
+    &mdash;
+  Dérivation de l'équation de Boltzmann en temps long à partir d'une
+dynamique de sphères dures</strong>
+,  <i> d'après Y. Deng, Z. Hani et X. Ma
+ </i> 
+    [<a href='TEXTES/Exp1247-Gallagher.pdf'>PDF</a>]
+    [<a href='https://www.ihp.fr/fr/live-0'>Live IHP</a>]
+    <br>
+    <p>On considère un système microscopique de <span
+class="math inline">\(n\)</span> sphères dures initialement
+indépendantes (modulo l’exclusion entre particules) et identiquement
+distribuées dans l’espace <span class="math inline">\(\mathbb
+R^3\)</span>. Dans la limite où leur nombre <span
+class="math inline">\(n\)</span> tend vers l’infini et leur
+diamètre <span class="math inline">\(\varepsilon\)</span> vers <span
+class="math inline">\(n\)</span>, sous l’hypothèse de faible densité
+<span class="math inline">\(n \varepsilon^2 = 1\)</span>, il est connu
+depuis les travaux de Lanford que la mesure empirique des particules se
+concentre sur la solution de l’équation de Boltzmann sur un temps court.
+En particulier, les particules restent dynamiquement indépendantes dans
+cette limite, et sur ce temps court où les corrélations induites par les
+collisions sont bien contrôlées. Dans un travail récent, Y. Deng,
+Z. Hani et X. Ma ont réussi à obtenir le même résultat de convergence
+sur un temps arbitrairement grand : plus précisément la convergence a
+lieu aussi longtemps qu’existe une solution régulière à l’équation de
+Boltzmann. Dans cet exposé nous présenterons quelques éléments de la
+preuve de ce résultat.</p>
+
+</dd>
+
+<dt>
+14h30
+</dt>
+<dd>
+<strong>Claire <i class="nom"> Voisin </i>
+    &mdash;
+  La conjecture de Hodge pour les variétés abéliennes de dimension au plus
+5</strong>
+,  <i> d'après Markman
+ </i> 
+    [<a href='TEXTES/Exp1248-Voisin.pdf'>PDF</a>]
+    [<a href='https://www.ihp.fr/fr/live-0'>Live IHP</a>]
+    <br>
+    <p>La conjecture de Hodge porte sur la topologie et la géométrie
+analytique des variétés projectives complexes <span
+class="math inline">\(X\)</span>. Elle prédit grosso modo l’existence de
+sous-variétés algébriques de <span class="math inline">\(X\)</span>
+ayant une classe de cohomologie donnée, à condition que cette classe
+soit une classe de Hodge. Le seul cas connu en général est celui des
+hypersurfaces (classes de degré <span class="math inline">\(2\)</span>).
+Bien qu’il soit difficile de construire des classes de Hodge sur des
+variétés algébriques, il existe des exemples explicites produits par des
+procédés formels. C’est en particulier le cas des classes de Hodge,
+dites de Weil, sur les variétés abéliennes de Weil, qui sont des tores
+complexes algébriques admettant un endomorphisme quadratique. Je
+décrirai la stratégie qui a permis à Eyal Markman de démontrer la
+conjecture de Hodge pour les classes de Weil sur les variétés abéliennes
+de Weil de dimension <span class="math inline">\(4\)</span>, ce qui
+entraîne la conjecture de Hodge pour les variétés abéliennes de
+dimension au plus <span class="math inline">\(5\)</span>, grâce à des
+résultats antérieurs.</p>
+
+</dd>
+
+<dt>
+16h00
+</dt>
+<dd>
+<strong>Sylvy <i class="nom"> Anscombe </i>
+    &mdash;
+  The model theory of perfectoid fields</strong>
+,  <i> after Jahnke and Kartas
+ </i> 
+    [<a href='TEXTES/Exp1246-Anscombe.pdf'>PDF</a>]
+    [<a href='https://www.ihp.fr/fr/live-0'>Live IHP</a>]
+    <br>
+    <p>The “AKE principles” of Ax, Kochen, and Ershov, have at their heart
+an axiomatization of the first-order theories of henselian valued fields
+of residue characteristic zero. This work yields the famous asymptotic
+transfer principle for first-order sentences between the local fields of
+mixed and positive characteristics. Fontaine’s tilt of a ring <span
+class="math inline">\(R\)</span> is the inverse limit <span
+class="math inline">\(R^{\flat}\)</span> of copies of the ring <span
+class="math inline">\(R/p\)</span> with transition maps given by
+Frobenius <span class="math inline">\(x\mapsto x^{p}\)</span>, and in
+celebrated work, Scholze prove that tilting is then an equivalence
+between the category of perfectoid rings over <span
+class="math inline">\(K\)</span> and the category of perfectoid rings
+over <span class="math inline">\(K^{\flat}\)</span>.</p>
+<p>The aim of this talk is to explain a new contribution of Jahnke and
+Kartas, who have introduced an elementary class <span
+class="math inline">\(\mathcal{C}\)</span> of valued fields, containing
+the perfectoid fields, and proved a range of AKE priciples in this
+context, including for the first time valued fields admitting nontrivial
+defect extensions. From their work one obtains a non-standard version of
+the Almost Purity theorem of Scholze, and the Fontaine–Wintenberger
+theorem. This should be seen in the context of Kuhlmann’s tame valued
+fields are another setting in which there is an Ax–Kochen/Ershov-like
+theory, as well as important earlier work of Kuhlmann and Rzepka on the
+valuation theory of deeply ramified fields, and of Kartas which showed
+the transfer of decidability problems via tilting. More recently,
+Rideau-Kikuchi, Scanlon, and Simon have formalized the tilt as a
+bi-interpretation in continuous logic.</p>
+
+</dd>
+
+
+</dl>
+</div>
+</div>
+
+<h3>Sessions ant&eacute;rieures :<br>
+</h3>
+
+<p> <a href="seminaires/2025-26/Prog_nov-25.html">Session de novembre 2025</a></p>
+
+<p> <a href="seminaires/2024-25/Prog_jui-25.html">Session de juin 2024</a></p>
+
+<p> <a href="seminaires/2024-25/Prog_mar-25.html">Session de mars 2025</a></p>
+
+
+<h3>Brochure</h3>
+<p>
+Des brochures contenant les expos&eacute;s du S&eacute;minaire  Bourbaki
+seront distribu&eacute;es au d&eacute;but de chaque s&eacute;ance.
+</p>
+<p>
+Pour recevoir &agrave; l'avance le programme et les r&eacute;sum&eacute;s de chaque s&eacute;minaire, veuillez vous abonner en
+envoyant un mail &agrave;
+Pour recevoir les annonces des prochains séminaires : écrire un message à
+<a class="local"
+   href="mailto:seminaires+subscribe@bourbaki.fr?subject=subscribe">cette adresse</a>.
+<br/>
+</p>
+<p>Vous pouvez aussi ajouter à vos calendriers électroniques les agendas 
+hébergés sur le <a href="https://indico.math.cnrs.fr">portail Indico</a>&nbsp;:
+<a href="https://indico.math.cnrs.fr/export/categ/339.ics">Séminaire Bourbaki
+  du vendredi</a> et <a href="https://indico.math.cnrs.fr/export/categ/338.ics">Séminaire Bourbaki</a> (format iCalendar)
+</p>
+<h3>Remerciements</h3>
+<p>Un soutien du CNRS couvre une partie des frais d'organisation
+de ce S&eacute;minaire.</p>
+<div class="logos">
+<a href="http://www.mathjax.org">
+		    <img title="Powered by MathJax"
+		        src="https://www.mathjax.org/badge/badge-square.png"
+			    style="border:none;" alt="Powered by MathJax" />
+</a></div>
+<div class="address">
+<b>Mateo CARMONA</b> <br>
+Centre d'Études Grothendieckiennes <br>
+E-mail&nbsp;: <a rel="me" href="mateo.carmona@csg.igrothendieck.org">mateo.carmona@csg.igrothendieck.org</a><br>
+CSG&nbsp;: <a rel="me" href="https://csg.igrothendieck.org/researchers/">Scholars</a>
+</div>
+</body></html>
