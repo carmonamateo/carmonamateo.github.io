@@ -10,5 +10,6 @@ You can find me at:
 
 - E-mail: [mateo.carmona@csg.igrothendieck.org](mateo.carmona@csg.igrothendieck.org)
 - CSG Profile: [Scholars](https://csg.igrothendieck.org/researchers/)
+- LinkedIn: [Profile](https://www.linkedin.com/in/mateocarmonag/)
 
 ***
